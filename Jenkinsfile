@@ -24,7 +24,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/alessaem/cart_javafx.git'
+                git branch: 'master', url: 'https://github.com/alessaem/cart_javaxf.git'
             }
         }
 
